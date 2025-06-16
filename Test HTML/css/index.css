@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background: #020024;
+    background: linear-gradient( 356deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.menu {
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.body {
+    width: 100%;
+    height: 100%;
+    background: #020024;
+    background: linear-gradient( 356deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.photo {
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+}
+
+.photo .top {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.top .topright,
+.topleft {
+    width: 49.9%;
+    height: 100%;
+}
+
+.topright {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    border: solid 1px black;
+}
+
+.topright img {
+    width: 50%;
+    height: 100%;
+    object-fit: contain;
+    display: flex;
+}
+
+.topright .text1 {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+.text1 h1 {
+    height: 20px;
+    width: 100%;
+    /* text-align: center; */
+}
+
+.topleft {
+    background-color: blueviolet;
+}
+
+.photo .butt {
+    width: 100%;
+    height: 300px;
+    background-color: gold;
+    display: flex;
+    padding: 2px;
+    justify-content: space-around;
+}
+
+.butt .buttright {
+    width: 33.1%;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+.butt .buttcenter {
+    width: 33.1%;
+    height: 100%;
+    background-color: rgb(73, 43, 226);
+}
+
+.butt .buttleft {
+    width: 33.1%;
+    height: 100%;
+    background-color: rgb(18, 2, 33);
+}
